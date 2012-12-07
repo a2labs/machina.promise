@@ -1,7 +1,7 @@
 var Promise = machina.Fsm.extend({
 	initialState: "unfulfilled",
 	initialize: function () {
-		_.bindAll( this );
+		_.bindAll( this, "reject", "fulfill", "then" );
 	},
 	reject: function ( data ) {
 		this.handle( "process", { action: "failed", data: data } );

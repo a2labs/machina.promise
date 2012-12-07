@@ -1,6 +1,6 @@
 {
 	"name": "machina.promise",
-	"version": "0.0.9",
+	"version": "0.1.0",
 	"author": "Doug Neiner <dneiner@appendto.com>",
 	"description": "A lightweight Promises/A compliant implementation for projects already using the machina state machine library.",
 	"scripts": {
