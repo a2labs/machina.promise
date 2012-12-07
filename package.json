@@ -1,0 +1,23 @@
+{
+	"name": "machina.promise",
+	"version": "0.0.9",
+	"author": "Doug Neiner <dneiner@appendto.com>",
+	"description": "A lightweight Promises/A compliant implementation for projects already using the machina state machine library.",
+	"scripts": {
+		"test": "mocha spec --reporter spec && promise-tests all test/machina.promise.adapter.js"
+	},
+	"keywords": [
+		"machina",
+		"promises"
+	],
+	"dependencies": {
+		"underscore": "",
+		"machina": ""
+	},
+	"devDependencies": {
+		"expect.js": "",
+		"mocha": "",
+		"promise-tests": ""
+	},
+	"license": "MIT or GPLv2"
+}

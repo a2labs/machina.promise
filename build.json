@@ -1,0 +1,7 @@
+{
+	"anvil.uglify": {
+		"all": true
+	},
+
+	"dependencies": [ "anvil.uglify" ]
+}
