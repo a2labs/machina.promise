@@ -1,6 +1,8 @@
 {
 	"anvil.uglify": {
-		"all": true
+		"include": [
+			"./machina.promise.js"
+		]
 	},
 
 	"dependencies": [ "anvil.uglify" ]

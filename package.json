@@ -6,7 +6,7 @@
 	"scripts": {
 		"test": "mocha spec --reporter spec && promise-tests all test/machina.promise.adapter.js"
 	},
-	"main" : "lib/machina.promise.js",
+	"main" : "lib/node/machina.promise.js",
 	"repository" : {
         "type" : "git",
         "url" : "git://github.com/a2labs/machina.promise.git"
