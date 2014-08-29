@@ -1,11 +1,11 @@
 (function ( root, factory ) {
   if ( typeof module === "object" && module.exports ) {
     // Node, or CommonJS-Like environments
-    var _ = require( "underscore" );
-    module.exports = factory( _, require( "machina" )( _ ) );
+    var _ = require( "lodash" );
+    module.exports = factory( _, require( "machina" ) );
   } else if ( typeof define === "function" && define.amd ) {
     // AMD. Register as an anonymous module.
-    define( ["underscore", "machina"], function ( _, machina ) {
+    define( ["lodash", "machina"], function ( _, machina ) {
       return factory( _, machina, root );
     } );
   } else {

@@ -1,5 +1,5 @@
-var _ = require( "underscore" );
-var machina = require( "machina" )( _ );
+var _ = require( "lodash" );
+var machina = require( "machina" );
 
 // import("../promise.js" );
 // import("node-helpers.js" );
